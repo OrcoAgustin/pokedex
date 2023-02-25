@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: gainsboro;
+  text-transform: capitalize;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+.card {
+  margin: 2.5%;
+  transition: transform 0.2s; /* Animation */
+}
+.card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.carta-busqueda:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.navbar {
+  background-color: white;
+}
+#barra-buscar {
+  margin-left: 68%;
+}
+#contenedor-busqueda {
+  display: none;
+}
+#navbar-logo {
+  width: 70px;
+  height: auto;
+}
+#next {
+  margin: 10px;
+}
+#pag {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1%;
+}
+#prev {
+  margin: 10px;
+}
+#resultado {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#respuesta-img {
+  margin-left: 20%;
+  margin-right: 20%;
+}
